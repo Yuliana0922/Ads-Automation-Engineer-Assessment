@@ -1,0 +1,45 @@
+{
+    "credentials": {
+        "app_id": "3040782022742448",
+        "app_secret": "2da0932ec075c56be74dedeefbaa1ec3",
+        "access_token": "EAArNkzxOEbABOzTdLOvY88a9LE3RZAmvTx0Yw8g1uiTErAFZA9qZBZAxPuRKxk6ZBs5XJNYCuntsLAyuP1oS67TeY8ZATTWBEvIiLsGWTyza0q3n82vyBZAD76fnH6iT0a5C4Fmg29rLqGsbtKRNZBmGX9kwvDPiuyLJPXGfl31Kz4nyGkgWU2UOjDrdJAXh1Wcc7TL7wGRGxplPdUaeyUL78grLZAAZDZD"
+    },
+    "ad_account_id": "act_3383591441937549",
+    "campaign_details": {
+        "name": "Job Posting Campaign",
+        "objective": "OUTCOME_TRAFFIC",
+        "status": "PAUSED",
+        "special_ad_categories": ["EMPLOYMENT"]
+    },
+    "ad_set_details": {
+        "name": "Targeted Audience for Tech Job Post",
+        "daily_budget": 5000,
+        "billing_event": "IMPRESSIONS",
+        "optimization_goal": "LINK_CLICKS",
+        "bid_strategy": "LOWEST_COST_WITH_BID_CAP",
+        "bid_amount": 2,
+        "bid_cap": 5000,
+        "targeting": {
+            "geo_locations": {"countries": ["US", "GB"]},
+            "interests": [
+                {"id": "6003985771306", "name": "Technology"},
+                {"id": "6003164535634", "name": "Information technology"},
+                {"id": "6003121984934", "name": "Computing"},
+                {"id": "6003387171641", "name": "High tech"},
+                {"id": "6004037932409", "name": "Management"}
+            ],
+            "age_min": 20,
+            "age_max": 50,
+            "genders": [1, 2]
+        }
+    },
+    "ad_creative_details": {
+        "name": "Creative for Job Post",
+        "page_id": "440040689197139",
+        "link_data": {
+            "picture": "https://res.cloudinary.com/dsmgooiwb/image/upload/v1730485932/iheolyatnyevxedyll7k.png",
+            "link": "https://torre.ai/post/awyJqjad-torre-product-minded-tech-lead",
+            "message": "Are you a visionary tech lead? Torre is looking for an experienced leader to help drive technology that redefines recruitment. Work remotely, lead a talented team, and innovate with advanced AI to match candidates with companies seamlessly. Join us to make hiring faster, more accurate, and less biased."
+        }
+    }
+}
